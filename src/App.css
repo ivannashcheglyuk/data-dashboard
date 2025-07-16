@@ -92,11 +92,11 @@ select:focus {
 
 /* Each row */
 .breed-row {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.797);
   margin-bottom: 16px;
   padding: 20px 25px;
   border-radius: 14px;
-  box-shadow: 0 4px 20px rgba(205, 164, 164, 0.3);
+  box-shadow: 0 4px 20px rgba(47, 163, 140, 0.3);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   cursor: default;
 }
@@ -108,19 +108,20 @@ select:focus {
 
 .breed-row strong {
   font-size: 1.3rem;
-  color: #f17039;
+  color: #e9843c;
 }
 
 .breed-row em {
   font-style: normal;
-  color: #8cdb2b;
+  color: rgb(67, 106, 7);
+  
   margin-left: 10px;
 }
 
 .breed-row small {
   display: block;
   margin-top: 8px;
-  color: #1ec178;
+  color: #cf3838;
   font-size: 0.9rem;
 }
 
